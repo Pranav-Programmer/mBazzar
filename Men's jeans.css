@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}.container2 .col-5a{
+    flex-basis: 50%;
+    padding: 10px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.col-5a img {
+    width: 100%;
+    transition: transform 0.5s
+}
+.col-5a:hover{
+    transform: translate(10px);
+}
+.container3 {
+    flex-basis: 50%;
+    padding: 10px;
+    max-width: 500px;
+    margin-bottom: 50px;
+    position: left;
+}
+.col-6 img {
+    width: 100%;
+    height: 85%;
+    object-position: center;
+}
+.span1{
+    margin-left: 0px;
+    font-weight: bold;
+    color: #cd329c;
+}
+.span2{
+    font-weight: 15px;
+}
+.span3{
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cd329c;
+}
+.row h4{
+    color: black;
+    margin-left: 10px;
+}
+.checked1 {
+  color: orange;
+  margin-left: 160px;
+}
+.checked2 {
+  color: orange;
+  margin-left: 3px;
+}
+.checked3 {
+  color: orange;
+  margin-left: 3px;
+}
+.checked4 {
+  color: orange;
+  margin-left: 3px;
+}
+.checked5 {
+  color: orange;
+  margin-left: 3px;
+}
+* {
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+    transition: transform 1s;
+}
+.column img{
+    width: 200px;
+    padding: 20px;
+    height: 300px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
